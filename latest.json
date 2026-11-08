@@ -1,9 +1,9 @@
 {
-  "version": "1.2.2",
-  "url": "https://ghfast.top/https://github.com/Haotische/score-insight/releases/download/v1.2.2/ScoreInsight-Setup-1.2.2.exe",
-  "sha256": "3cde32309cc7082081d0db21a8b4778b4046d1b860b77af95d19bbfc2261cd99",
-  "size": 257182828,
-  "notes": "成绩洞察 v1.2.2\n\n- 默认更新地址改为 GitHub Pages 静态更新：https://haotische.github.io/score-insight\n- 安装后自动检查更新，无需手动填写更新地址\n- 设置 → 软件更新新增“生成静态更新清单…”，自动计算 SHA256/文件大小并生成 latest.json\n- 支持安装包与 latest.json 分开托管（GitHub Releases + Pages / 对象存储）\n- 更新时校验 SHA256，保留用户 data 数据\n- 首页与设置页显示开发者 Haotische\n",
-  "published_at": "2026-11-08T13:21:21+00:00",
+  "version": "1.2.3",
+  "url": "https://ghfast.top/https://github.com/Haotische/score-insight/releases/download/v1.2.3/ScoreInsight-Setup-1.2.3.exe",
+  "sha256": "7161ee99c4eb303eeea91963605d8a29421bf7ac4d24f18506887c4d11e5fd3d",
+  "size": 257198424,
+  "notes": "成绩洞察 v1.2.3\n\n- 代码签名：主程序和安装包已使用 Haotische 代码签名证书签名（SHA256 + 时间戳）\n- 静默更新安装完成后自动重新启动软件，不再需要手动打开\n- 默认更新地址：https://haotische.github.io/score-insight\n- 更新仍会校验 SHA256，并保留用户 data\n- 修复：更新器不再传 /RESTARTAPPLICATIONS，避免自动启动时重复开两个实例\n\n注意：当前使用自签名代码签名证书。未安装 Haotische-CodeSigning.cer 的电脑\n可能仍会提示“未知发布者”；面向公众分发建议换成商业代码签名证书（OV/EV）。\n",
+  "published_at": "2026-11-08T14:41:40+00:00",
   "developer": "Haotische"
 }
