@@ -14,7 +14,7 @@
 
 ## 自动更新
 
-本仓库同时通过 GitHub Pages 提供静态更新清单：
+本仓库通过 GitHub Pages 提供静态更新清单：
 
 ```text
 https://haotische.github.io/score-insight/latest.json
@@ -26,7 +26,16 @@ https://haotische.github.io/score-insight/latest.json
 https://haotische.github.io/score-insight
 ```
 
-安装包通过 GitHub Releases 分发；客户端会校验 SHA256 后静默升级。
+安装包以 GitHub Releases 为原始来源。由于中国大陆直连 GitHub Releases
+下载较慢，`latest.json` 中的下载地址会使用 `ghfast.top` 加速镜像；
+客户端下载完成后会用清单里的 SHA256 校验，文件被篡改或损坏会拒绝安装。
+
+如果加速镜像失效，可以：
+
+1. 把 `latest.json` 中的 `url` 换回
+   `https://github.com/Haotische/score-insight/releases/download/v1.2.2/ScoreInsight-Setup-1.2.2.exe`；
+2. 或换成其他可用的 GitHub 下载镜像；
+3. 更新 `latest.json` 后等待 GitHub Pages 重新发布。
 
 ## 文件说明
 
