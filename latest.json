@@ -1,9 +1,9 @@
 {
   "version": "1.2.2",
-  "url": "https://github.com/Haotische/score-insight/releases/download/v1.2.2/ScoreInsight-Setup-1.2.2.exe",
+  "url": "https://ghfast.top/https://github.com/Haotische/score-insight/releases/download/v1.2.2/ScoreInsight-Setup-1.2.2.exe",
   "sha256": "3cde32309cc7082081d0db21a8b4778b4046d1b860b77af95d19bbfc2261cd99",
   "size": 257182828,
   "notes": "成绩洞察 v1.2.2\n\n- 默认更新地址改为 GitHub Pages 静态更新：https://haotische.github.io/score-insight\n- 安装后自动检查更新，无需手动填写更新地址\n- 设置 → 软件更新新增“生成静态更新清单…”，自动计算 SHA256/文件大小并生成 latest.json\n- 支持安装包与 latest.json 分开托管（GitHub Releases + Pages / 对象存储）\n- 更新时校验 SHA256，保留用户 data 数据\n- 首页与设置页显示开发者 Haotische\n",
-  "published_at": "2026-11-08T13:07:49+00:00",
+  "published_at": "2026-11-08T13:21:21+00:00",
   "developer": "Haotische"
 }
