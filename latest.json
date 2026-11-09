@@ -1,9 +1,9 @@
 {
-  "version": "1.2.3",
-  "url": "https://ghfast.top/https://github.com/Haotische/score-insight/releases/download/v1.2.3/ScoreInsight-Setup-1.2.3.exe",
-  "sha256": "7161ee99c4eb303eeea91963605d8a29421bf7ac4d24f18506887c4d11e5fd3d",
-  "size": 257198424,
-  "notes": "成绩洞察 v1.2.3\n\n- 代码签名：主程序和安装包已使用 Haotische 代码签名证书签名（SHA256 + 时间戳）\n- 静默更新安装完成后自动重新启动软件，不再需要手动打开\n- 默认更新地址：https://haotische.github.io/score-insight\n- 更新仍会校验 SHA256，并保留用户 data\n- 修复：更新器不再传 /RESTARTAPPLICATIONS，避免自动启动时重复开两个实例\n\n注意：当前使用自签名代码签名证书。未安装 Haotische-CodeSigning.cer 的电脑\n可能仍会提示“未知发布者”；面向公众分发建议换成商业代码签名证书（OV/EV）。\n",
-  "published_at": "2026-11-08T14:41:40+00:00",
+  "version": "1.2.4",
+  "url": "https://ghfast.top/https://github.com/Haotische/score-insight/releases/download/v1.2.4/ScoreInsight-Setup-1.2.4.exe",
+  "sha256": "b5d66a28df39648d9538557a0a367650b0ef02ae4a68a6a14c648ec7268a9f31",
+  "size": 257205200,
+  "notes": "成绩洞察 v1.2.4\n\n- 全新 iOS 26 液态玻璃界面：彩色极光背景 + 真实磨砂/折射玻璃卡片\n- 玻璃卡片会采样背后的极光，带高光边缘、斜向反光、接触阴影和悬停增亮\n- 重新设计按钮、胶囊标签页、输入框、表格、徽章、菜单和滚动条\n- 底部导航升级为原生液态玻璃 Dock，带折射透镜、色散和高光；默认使用 Qt 原生版，React 版可通过 SCORE_INSIGHT_WEB_DOCK=1 启用\n- 卡片更多留白、更大圆角，并增加页面底部留白，内容可以滚动到悬浮 Dock 上方\n- 窗口较窄时统计卡片自动切换为两列，避免右侧卡片被裁切\n- 保留全部功能、数据结构、更新流程和代码签名\n- 修复：彩色背景不再受低饱和度主题色影响，灰色主题下也能保持液态玻璃色彩\n\n注意：当前使用自签名代码签名证书。未安装 Haotische-CodeSigning.cer 的电脑\n可能仍会提示“未知发布者”；面向公众分发建议换成商业代码签名证书（OV/EV）。\n",
+  "published_at": "2026-11-09T06:18:28+00:00",
   "developer": "Haotische"
 }
