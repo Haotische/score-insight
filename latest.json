@@ -1,9 +1,9 @@
 {
-  "version": "1.2.4",
-  "url": "https://ghfast.top/https://github.com/Haotische/score-insight/releases/download/v1.2.4/ScoreInsight-Setup-1.2.4.exe",
-  "sha256": "b5d66a28df39648d9538557a0a367650b0ef02ae4a68a6a14c648ec7268a9f31",
-  "size": 257205200,
-  "notes": "成绩洞察 v1.2.4\n\n- 全新 iOS 26 液态玻璃界面：彩色极光背景 + 真实磨砂/折射玻璃卡片\n- 玻璃卡片会采样背后的极光，带高光边缘、斜向反光、接触阴影和悬停增亮\n- 重新设计按钮、胶囊标签页、输入框、表格、徽章、菜单和滚动条\n- 底部导航升级为原生液态玻璃 Dock，带折射透镜、色散和高光；默认使用 Qt 原生版，React 版可通过 SCORE_INSIGHT_WEB_DOCK=1 启用\n- 卡片更多留白、更大圆角，并增加页面底部留白，内容可以滚动到悬浮 Dock 上方\n- 窗口较窄时统计卡片自动切换为两列，避免右侧卡片被裁切\n- 保留全部功能、数据结构、更新流程和代码签名\n- 修复：彩色背景不再受低饱和度主题色影响，灰色主题下也能保持液态玻璃色彩\n\n注意：当前使用自签名代码签名证书。未安装 Haotische-CodeSigning.cer 的电脑\n可能仍会提示“未知发布者”；面向公众分发建议换成商业代码签名证书（OV/EV）。\n",
-  "published_at": "2026-11-09T06:18:28+00:00",
+  "version": "1.2.5",
+  "url": "https://ghfast.top/https://github.com/Haotische/score-insight/releases/download/v1.2.5/ScoreInsight-Setup-1.2.5.exe",
+  "sha256": "f1f39824e260b18d9f56ee01b0d0c10233f31462ac3ebf5f844fc48b9c64eb5d",
+  "size": 257205296,
+  "notes": "成绩洞察 v1.2.5（修复手动录入崩溃）\n\n- 修复：打开“手动录入成绩”表单时程序报错/崩溃\n  AttributeError: 'ManualEntryDialog' object has no attribute 'centralWidget'\n  玻璃卡片在 QDialog 中绘制时不再假定宿主一定是 QMainWindow。\n- 修复：该场景下 QFrame::paintEvent 反复报错、日志被刷屏的问题。\n- 新增回归测试：冒烟测试会实际创建并绘制手动录入表单，防止再次出现同类崩溃。\n- 保留 v1.2.4 的全部界面改进：iOS 26 液态玻璃、彩色极光、原生玻璃 Dock、响应式统计卡、低 CPU 动画。\n- 功能和数据结构不变，覆盖安装/自动更新仍会保留用户 data。\n\n注意：当前使用自签名代码签名证书。未安装 Haotische-CodeSigning.cer 的电脑\n可能仍会提示“未知发布者”；面向公众分发建议换成商业代码签名证书（OV/EV）。\n",
+  "published_at": "2026-11-09T07:15:10+00:00",
   "developer": "Haotische"
 }
