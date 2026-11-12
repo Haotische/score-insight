@@ -36,7 +36,7 @@ https://haotische.github.io/score-insight
 如果加速镜像失效，可以：
 
 1. 把 `latest.json` 中的 `url` 换回
-   `https://github.com/Haotische/score-insight/releases/download/v1.3.0/ScoreInsight-Setup-1.3.0.exe`；
+   `https://github.com/Haotische/score-insight/releases/download/v1.3.2/ScoreInsight-Setup-1.3.2.exe`；
 2. 或换成其他可用的 GitHub 下载镜像；
 3. 更新 `latest.json` 后等待 GitHub Pages 重新发布。
 
